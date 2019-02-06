@@ -1,0 +1,104 @@
+    	body{
+    		font-family: Roboto Slab;
+    		margin: 0px;
+    		padding: 0px;
+    	}
+        .banner img{
+            position: fixed;
+            width: 230px;
+            margin: 20px 0px 20px 50px; 
+        }
+    	.peopleimage{
+    		background: url("images/learnbg.jpg");
+    		background-attachment: fixed;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		height: 100vh;
+    	}
+    	.aboutus{
+    		color: white;
+    		font-weight: bold;
+    		text-shadow: 2px 2px black;
+    		padding: 20px;
+    		background: url("images/aboutdoodle.jpg");
+    	}
+    	.aboutus p{
+    		font-size: 20px;
+    		text-align: center;
+    		width: 75%;
+    	}
+    	.gallery{
+    		background: url("images/gallery.jpg");
+    		background-attachment: fixed;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+    		height: auto;
+    		padding-bottom: 50px;
+    	}
+    	.gallery h1{
+    		font-size: 50px;
+    		text-shadow: 3px 3px black;
+    		color: white;
+    		font-weight: bold;
+    	}
+    	.frame{
+    		background: url("images/frame.png") no-repeat;
+    		width: 300px;
+    		height: 370px;
+    		display: inline-block;
+    		margin:0px 50px 20px 50px;
+    	}
+    	.frame img{
+    		margin-top: 44px;
+    	}
+        .frame{
+            font-family: Reenie Beanie;
+            font-size: 30px;
+        }
+        .videos{
+            border: 5px solid black;
+            display: inline-block;
+            margin:0px 40px 40px 40px;
+        }
+        .videos iframe{
+            width:450px;
+            height: 253px;
+        }
+        
+        	.footer{
+        	width: 100%;
+            height: 100px;   
+            padding-top: 20px;
+            background: #405a5c;
+    		font-size:13px;
+			font-family: Roboto Slab;
+    		color:white;
+            border-top: 1px solid white;
+    	}
+    	.footer a{
+    		padding-left: 14px;
+    		text-decoration: none;
+    		color:silver;
+    	}
+    	.footer a:hover{
+    		color: white;
+    	}
+    	.footer hr{
+    		width:150px;
+    	}
+		#social{
+				content:url("images/socialsprite.png");
+				height:28px;
+				object-fit:none; 
+				float: right;
+				margin: 0px 10px 10px 0px;
+			    -webkit-transition: opacity 0.3s ease-in-out;
+			    -moz-transition: opacity 0.3s ease-in-out;
+			    transition: opacity 0.3s ease-in-out;
+			}
+		#social:hover{
+			    -webkit-transition: opacity 0.4s ease-in-out;
+			    -moz-transition: opacity 0.4s ease-in-out;
+			    transition: opacity 0.4s ease-in-out;
+				opacity: 0.7;
+			}
